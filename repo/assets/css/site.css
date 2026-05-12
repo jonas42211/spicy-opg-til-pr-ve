@@ -1,4 +1,9 @@
-body{
-    
-    background-color: brown;
-}
+:root
+-- light-black: #333333;
+-- black: #000000;
+-- red: #c82113;
+-- dark-red: #94180e;
+-- blue: #1085df;
+-- light-blue: #0e5a94;
+
+
