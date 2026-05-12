@@ -9,8 +9,9 @@ button.addEventListener("click", (event) => {
     let ageValue = ageInput.value;
     let mailValue = mailInput.value;
     console.log(nameValue, ageValue, mailValue);
-if (nameValue.length >= 3 && ageValue > 18 && mailValue == "bni@techcollege.dk") {
-    alert("Velkommen!");
+if (nameValue.length >= 3 && ageValue > 17 && mailValue.includes("@")) {
+    alert("tak for dine oplysninger");
+    window.location.href = "index.html";
 }
 else {
     alert ("Du opfylder ikke kravene");
